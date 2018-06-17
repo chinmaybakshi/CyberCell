@@ -1,0 +1,65 @@
+body {
+    background: #ced4da;
+    background: -moz-radial-gradient(center, ellipse cover, #f8f9fa 1%, #ced4da 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%, #f8f9fa), color-stop(100%, #426482));
+    background: -webkit-radial-gradient(center, ellipse cover, #f8f9fa 1%, #ced4da 100%);
+    background: -o-radial-gradient(center, ellipse cover, #f8f9fa 1%, #ced4da 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #f8f9fa 1%, #ced4da 100%);
+    background: radial-gradient(ellipse at center, #f8f9fa 1%, #ced4da 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ced4da', endColorstr='#1c2b5a',GradientType=1 );
+    height: 100vh;
+    width: 100%;
+}
+*{
+    border-radius: 0 !important;
+    border: none !important;
+    
+}
+input:focus{
+    box-shadow: none !important;
+}
+
+
+i{
+    font-size: 28px;
+}
+
+input{
+  padding: 10px 0 !important;
+}
+
+.input-group{
+    margin-bottom: 10px;
+}
+
+.input-group span{
+    width: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+button{
+    margin-top: 5px;
+    padding: 12px !important;
+    background: #1abc9c;
+    color: #fff;
+}
+
+p {
+    text-transform: uppercase;
+}
+.b-left{
+    border-left : 1px solid #ccc!important;
+    padding-left: 50px;
+}
+
+.text {
+    color: #848484;
+}
